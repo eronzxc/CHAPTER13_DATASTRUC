@@ -1,0 +1,32 @@
+# AARON LUDWIG A. ALTAR
+# CPE3A - CPE7
+# Restaurant
+
+# Create a class called Restaurant
+class Restaurant:
+    # Initialize the restaurant attributes
+    def __init__(self, restaurant_name, cuisine_type):
+        self.restaurant_name = restaurant_name
+        self.cuisine_type = cuisine_type
+
+    # Method that prints the restaurant details
+    def describe_restaurant(self):
+        print("Restaurant Information:")
+        print(f"Name: {self.restaurant_name}")
+        print(f"Cuisine Type: {self.cuisine_type}")
+
+    # Method that indicates the restaurant is open
+    def open_restaurant(self):
+        print("The restaurant is now open.\n")
+
+
+# Create an instance of the Restaurant class
+restaurant = Restaurant("La Bella Italia", "Italian")
+
+# Print the attributes individually
+print(restaurant.restaurant_name)
+print(restaurant.cuisine_type)
+
+# Call both methods
+restaurant.describe_restaurant()
+restaurant.open_restaurant()
