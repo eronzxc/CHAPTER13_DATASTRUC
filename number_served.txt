@@ -1,6 +1,6 @@
 # AARON LUDWIG A. ALTAR
 # CPE3A - CPE7
-# Restaurant - Number Serveds
+# Restaurant - Number Served
 
 # Create a class called Restaurant
 class Restaurant:
